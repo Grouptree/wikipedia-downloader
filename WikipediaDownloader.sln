@@ -9,8 +9,34 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		.gitignore = .gitignore
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WikipediaDownloader", "src\WikipediaDownloader\WikipediaDownloader.csproj", "{862D2614-12A9-4B1C-A36C-A2EE2828DEA2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WikipediaDownloader.Tests", "test\WikipediaDownloader.Tests\WikipediaDownloader.Tests.csproj", "{A0421C9E-2D36-425F-BCB7-508CA536C0DE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Source", "Source", "{3FFE98C0-D8D5-4021-9742-0170495FE744}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{060A085A-94E4-400E-9373-57211ADEF0F7}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{862D2614-12A9-4B1C-A36C-A2EE2828DEA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{862D2614-12A9-4B1C-A36C-A2EE2828DEA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{862D2614-12A9-4B1C-A36C-A2EE2828DEA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{862D2614-12A9-4B1C-A36C-A2EE2828DEA2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0421C9E-2D36-425F-BCB7-508CA536C0DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0421C9E-2D36-425F-BCB7-508CA536C0DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0421C9E-2D36-425F-BCB7-508CA536C0DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0421C9E-2D36-425F-BCB7-508CA536C0DE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{862D2614-12A9-4B1C-A36C-A2EE2828DEA2} = {3FFE98C0-D8D5-4021-9742-0170495FE744}
+		{A0421C9E-2D36-425F-BCB7-508CA536C0DE} = {060A085A-94E4-400E-9373-57211ADEF0F7}
 	EndGlobalSection
 EndGlobal
