@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("WikipediaDownloader")]
+[assembly: AssemblyTitle("Wikimedia")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("WikipediaDownloader")]
+[assembly: AssemblyProduct("Wikimedia")]
 [assembly: AssemblyCopyright("Copyright ©  2015")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("862d2614-12a9-4b1c-a36c-a2ee2828dea2")]
+[assembly: Guid("83ba5ad6-8a1e-4372-ae24-584a315b3746")]
 
 // Version information for an assembly consists of the following four values:
 //

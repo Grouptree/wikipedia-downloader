@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{A0421C9E-2D36-425F-BCB7-508CA536C0DE}</ProjectGuid>
+    <ProjectGuid>{954761BE-D0F2-4452-A9FA-B85A8D972F1F}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>WikipediaDownloader</RootNamespace>
-    <AssemblyName>WikipediaDownloader.Tests</AssemblyName>
+    <RootNamespace>Wikimedia</RootNamespace>
+    <AssemblyName>Wikimedia.Tests</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -65,13 +65,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="IntegrationTest.cs" />
-    <Compile Include="DownloaderTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ResponseParsingTest.cs" />
+    <Compile Include="WikimediaClientTest.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\src\WikipediaDownloader\WikipediaDownloader.csproj">
-      <Project>{862d2614-12a9-4b1c-a36c-a2ee2828dea2}</Project>
-      <Name>WikipediaDownloader</Name>
+    <ProjectReference Include="..\..\src\Wikimedia\Wikimedia.csproj">
+      <Project>{83ba5ad6-8a1e-4372-ae24-584a315b3746}</Project>
+      <Name>Wikimedia</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
